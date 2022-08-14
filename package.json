@@ -1,0 +1,23 @@
+{
+  "name": "app-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootable": "0.2.x",
+    "bootable-environment": "0.2.x",
+    "connect-cors": "^0.5.6",
+    "connect-powered-by": "0.1.x",
+    "ejs": "0.8.x",
+    "express": "3.x.x",
+    "jsonwebtoken": "^8.5.1",
+    "locomotive": "0.4.x",
+    "locomotive-mongoose": "^0.1.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.2",
+    "mongoose-enumvalues": "^0.0.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
