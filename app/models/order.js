@@ -35,11 +35,15 @@ const orderSchema = new Schema({
 	},
 	customer:{
 		type: String,
-		required: true
+		required: true,
+		maxLength:50
 	},
 	phone:{
 		type: String,
-		required: true
+		required: true,
+		match:/^[0-9]+$/,
+		minLength: 8,
+		maxLength: 8,
 	},
 	create_date:{
 		type: Date,
